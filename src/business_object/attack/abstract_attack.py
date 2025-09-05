@@ -17,4 +17,14 @@ class AbstractAttack(ABC):
         """
         pass
 
-    
+    @property
+    def power(self):
+        return self._power
+
+    @property
+    def name(self):
+        return self._name
+
+    @property
+    def description(self):
+        return self._description
